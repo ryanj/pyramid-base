@@ -19,7 +19,7 @@ Use [vagrant](http://openshift.org/vm) or [ansible](https://github.com/openshift
 
 Build and deploy the application from the command line using the `oc` command line tool, and a nodejs builder image:
 
-    oc new-app openshift/nodejs~https://raw.githubusercontent.com/ryanj/restify-mongodb-parks
+    oc new-app openshift/python~http://github.com/ryanj/pyramid-base
 
 ## Local server
 Start a local webserver by running:
